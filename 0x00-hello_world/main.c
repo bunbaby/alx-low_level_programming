@@ -5,6 +5,6 @@
  *Return:Always 0 (sucess) 
  */
 int main(void)
-{
-	return (o)
+{  
+	return (0);
 }
