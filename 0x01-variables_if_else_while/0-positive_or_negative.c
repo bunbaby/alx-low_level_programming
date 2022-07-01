@@ -18,11 +18,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
-		printf("%d is positive", n)
+		printf("%d is positive", n);
 	if (n == 0)
-		printf("%d id zero", n)
+		printf("%d id zero", n);
 	if (n < 0)
-		printf("%d id negative", n)
+		printf("%d id negative", n);
 
 	return (0);
 }
