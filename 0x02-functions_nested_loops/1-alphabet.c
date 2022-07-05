@@ -2,10 +2,9 @@
 #include <stdio.h>
 /**
  *print_alphabet - prints the alphabet in lowercase, followed by a new line.
- *
  */
 
-int print_alphabet(void)
+void print_alphabet(void)
 {
 	char letter;
 
@@ -13,4 +12,5 @@ int print_alphabet(void)
 		putchar(letter);
 
 	putchar('\n');
+
 }
