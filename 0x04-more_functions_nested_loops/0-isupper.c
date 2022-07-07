@@ -7,10 +7,10 @@
  *@c: the given letter
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
-	char c;
 
-	if c >= 'A' && c <= 'Z'
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	return (0);
+}
