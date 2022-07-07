@@ -7,12 +7,10 @@
  *Return: Return product of two ints
  */
 
-int mul(int a, int b);
+int mul(int a, int b)
 {
-	int a, b;
 	int mul;
 
-	mul = a * b
-	return (mul);
+	return (a * b);
 }
 
