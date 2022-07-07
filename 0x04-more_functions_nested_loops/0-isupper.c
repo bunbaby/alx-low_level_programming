@@ -3,6 +3,7 @@
 /**
  *main - Write a function that checks for uppercase character
  *Return: 1 if c is upper case
+ * _isupper - Find if a given letter is upper case
  *0 if otherwise
  *@c: the given letter
  */
