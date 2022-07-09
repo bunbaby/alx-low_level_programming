@@ -8,8 +8,8 @@
 
 void print_number(int n)
 {
-	long hn;
-	long n2 = n;
+	int hn;
+	int n2 = n;
 
 	if (n2 < 0)
 	{
