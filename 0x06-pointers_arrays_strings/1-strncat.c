@@ -10,9 +10,17 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	char **ptr;
+	char **p;
+	int i, j;
 
-	dest = strncat(dest, src, n);
-	ptr = &dest;
-	return (*ptr);
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+		dest[i] = dest[i];
+	}
+	for (j = 0; src[i] != '\0' && j < n; j++)
+	{
+		dest[i] = src[j];
+	}
+	p = &dest;
+	return (*p);
 }
